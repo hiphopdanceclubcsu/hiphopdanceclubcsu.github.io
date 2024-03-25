@@ -242,4 +242,14 @@ footer #FsocialsMobile {
     justify-content: space-evenly;
     padding: 0 0 20px 0;
   }
+}
+@media screen and (min-width: 385px) and (max-width: 400px) {
+  header h1 {
+    width: 80%;
+  }
+}
+@media screen and (max-width: 350px) {
+  footer p {
+    margin: 0 15px;
+  }
 }/*# sourceMappingURL=foundation.css.map */

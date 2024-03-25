@@ -35,6 +35,9 @@
 }
 
 @media screen and (max-width: 1000px) {
+  #programMain {
+    width: 100%;
+  }
   #programContent img {
     width: min(500px, 100%);
   }
