@@ -54,4 +54,51 @@
   display: flex;
   justify-content: center;
   padding: 25px 0;
+}
+
+#FAQs {
+  background-color: green;
+}
+
+#FAQs li {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#FAQs div {
+  margin: 24px 0;
+}
+
+#FAQs li div p {
+  display: inline;
+  margin: 0 10px;
+}
+
+#FAQs label {
+  font-size: 24px;
+  font-weight: bold;
+  padding: 5px 12px;
+  box-shadow: 0 0 5px #fff;
+  border-radius: 5px;
+  transition: 0.8s;
+  cursor: pointer;
+}
+
+#FAQs .answer {
+  background-color: red;
+}
+
+#questionOne:checked ~ div #FAQs li div .questionOne,
+#questionTwo:checked ~ div #FAQs li div .questionTwo,
+#questionThree:checked ~ div #FAQs li div .questionThree,
+#questionFour:checked ~ div #FAQs li div .questionFour,
+#questionFive:checked ~ div #FAQs li div .questionFive,
+#questionSix:checked ~ div #FAQs li div .questionSix {
+  background-color: #fff;
+  color: #121212;
+}
+
+#questionOne:checked ~ div #FAQs #aOne {
+  display: block;
 }/*# sourceMappingURL=homePage.css.map */

@@ -67,20 +67,20 @@ input {
   display: none;
 }
 
-input:checked ~ #content header label {
+#menu:checked ~ #content header label {
   transform: rotate(270deg);
   text-shadow: 0 0 10px #ffffff;
 }
 
-input:checked ~ #content header {
+#menu:checked ~ #content header {
   border: none;
 }
 
-input:checked ~ #content #mobileMenu {
+#menu:checked ~ #content #mobileMenu {
   display: block;
 }
 
-input:checked ~ #content main, input:checked ~ #content footer {
+#menu:checked ~ #content main, #menu:checked ~ #content footer {
   display: none;
 }
 
