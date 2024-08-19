@@ -26,6 +26,15 @@
             width: 75%;
         }
     }
+
+    a {
+        color: #fff;
+        text-decoration: underline;
+    }
+
+    a:hover {
+        text-decoration: none;
+    }
 }
 
 #FAQs {

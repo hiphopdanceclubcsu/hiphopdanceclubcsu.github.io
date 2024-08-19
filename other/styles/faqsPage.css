@@ -23,6 +23,13 @@
 #faqsContent div img {
   width: 75%;
 }
+#faqsContent a {
+  color: #fff;
+  text-decoration: underline;
+}
+#faqsContent a:hover {
+  text-decoration: none;
+}
 
 #FAQs {
   width: 50%;
