@@ -6,6 +6,11 @@
     align-items: center;
     // background-image: url(../images/chain1.png);
     // background-size: cover;
+
+    h1 {
+        font-size: 32px;
+        padding: 20px 0 0 0;
+    }
 }
 
 #connectContent {
@@ -16,11 +21,6 @@
     // background-color: green;
     // background-image: url(../images/chain1.png);
     // background-size: 1000px;
-
-    h1 {
-        font-size: 32px;
-        padding: 20px 0 0 0;
-    }
 
     p {
         // width: 50%;
@@ -50,6 +50,13 @@
 
     a:hover {
         text-decoration: none;
+    }
+
+    iframe {
+        box-shadow: 0 0 10px #fff;
+        border-radius: 10px;
+        margin: 20px 0;
+        padding: 10px 0;
     }
 }
 
