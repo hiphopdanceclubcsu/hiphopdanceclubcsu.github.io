@@ -3,7 +3,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-image: linear-gradient(to bottom right, #000000, #00afab, #ff9135, #00afab, #000000);
+  background-image: linear-gradient(to bottom right, #000000, #00afab, #982be0, #00afab, #000000);
 }
 #programMain a {
   display: block;
