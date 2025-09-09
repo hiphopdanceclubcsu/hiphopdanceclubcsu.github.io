@@ -54,4 +54,10 @@
   display: flex;
   justify-content: center;
   padding: 25px 0;
+}
+
+@media screen and (max-width: 800px) {
+  #homeContent {
+    width: 100%;
+  }
 }/*# sourceMappingURL=homePage.css.map */
